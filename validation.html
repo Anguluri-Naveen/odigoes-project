@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="validation.css">
+    <script src="validation.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <header class="head clear fix">
+        <div class="ms">
+         <p class="float"><i class="bi bi-phone"></i>Contact us: (+91) 8886935558</p>
+         <p class="float"> <i class="bi bi-envelope-arrow-up-fill"></i>  info@odigos.org</p>
+         </div>
+         <div class="sm flex">
+            <a href="https://www.facebook.com/people/VJSMR-Odigos/61550744278485/"><h4 ><i class="bi bi-facebook"></i></h4></a>
+            <a href="https://www.instagram.com/vjsmr_odigos/"><h4><i class="bi bi-linkedin"></i></h4></a>
+            <a href="https://www.instagram.com/vjsmr_odigos/"><h4> <i class="bi bi-instagram"></i></h4></a>
+           <a href="https://youtube.com/@Vjs_Odigos"><h4><i class="bi bi-youtube"></i></h4></a> 
+         </div>
+        </header>
+        <section class="head clear fix float">
+            <div class="logo float">
+               <img src="LOGOs.png" alt="">
+            </div>
+            <nav class="float">
+
+                    <a href="index.html" ><button class="float but">Home</button></a>
+                    <a href="aboutus.html"><button class="float but">About us</button></a>
+                   <a href="courses.html"><button class="float but">Courses</button></a>
+                   <a href="traningprocess.html"><button class="float but">traningprocess</button></a>
+                    <a href="gallery.html"><button class="float but">gallery</button></a>
+                    <a href="validation.html"><button class="float but">Contact us</button></a>
+                    
+            </nav>
+             
+        </section>
+    <section class="flex valid">
+        <img width="30%" height="95%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHbjMGUEhlHV-V2T33fCsic5iy6pdTl4IpTA&usqp=CAU" alt="">
+        <form name="contact" action="" onsubmit="return validate()">
+            <h1>contact us</h1>
+            <input type="text" name="username" id="username" placeholder="enter your name" autocomplete="given-name" >
+            <p id="note"></p>
+            <input type="tel" name="mobileno" id="mobileno" placeholder="enter your number" autocomplete="mobile_no" >
+            <p id="mobilenote"></p>
+            <input type="text" name="emailid" id="emailid" placeholder="enter your emailid">
+            <p id="emailnote" ></p>
+            <select name="course" id="course">
+                <option value="hidden">choose your course</option>
+                <option value="">uiux designer</option>
+                <option value="">ui developer</option>
+                <option value="">photo shop</option>
+            </select>
+            <p id="selectnote"></p>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="message1"></textarea>
+            <input type="submit">
+        </form>
+    </section>
+    <section class="map">
+        <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15261.495585287481!2d82.2469259!3d17.0053205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3829bc20cb9423%3A0x7fddd34af1463712!2sOdigos%20Software%20Training%20Institute!5e0!3m2!1sen!2sin!4v1696308409916!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+    <section class="foots float">
+        <footer>
+        <div class="lo float">
+            <img src="http://odigos.org/wp-content/uploads/2019/02/ODIGOS-LOGO-1-150x150.png" alt="">
+            <p>VJSMR ODIGOS is a Kakinada based IT Software Training & Recruitment Company delivering classroom and online trainings in Andhra Pradesh & Telangana. </p>
+             </div>
+             <div class="cd float">
+                <h1>Contact Details</h1>
+                <h4 <i class="bi bi-telephone">+91 8886935558</i></h4>
+                <h4 <i class="bi bi-envelope-at-fill"> info@odigos.org</i></h4>
+                <h4 <i class="bi bi-geo-alt-fill">10-407/A, ESWAR NAGAR, 3APSP CAMP POST, KAKINADA – 533 005</i></h4>
+           </div>
+           <div class="li float">
+            <h1>Links</h1>
+            <h4>Courses</h4>
+            <h4>Upcoming Batches</h4>
+            <h4>Gallery</h4>
+            <h4>FAQs</h4>
+            <h4>Blog</h4>
+            <h4>Contact Us</h4>
+            <h4>About Us</h4>
+        </div>
+        <div class="fm float">
+             <h1>Follow on Social Media</h1>
+             <h4>Facebook</h4>
+             <h4>Linkedin</h4>
+             <h4>Instagram</h4>
+             <h4>Youtube</h4>
+        </div>
+     </footer>
+    </section>
+</body>
+</html>

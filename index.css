@@ -1,0 +1,392 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header.head{
+    width: 100%;
+    height: 8vh;
+   background-color: rgb(0, 0, 0);
+   color: white;
+}
+.head p{
+    padding-right: 10px;
+    font-size: small;
+}
+.head h4{
+    padding-right: 25px;
+    font-size: small;
+    color: white;
+    
+}
+.sm{
+  padding-left: 400px;
+
+  color: white;
+}
+.ms{
+    padding-left: 80px;
+}
+
+section.head{
+    width: 100%;
+    height: 20vh;
+}
+div.logo{
+  width: 30%;
+  padding-left: 40px;
+}
+.logo img{
+    width: 100%;
+}
+.clear fix{
+    clear: both;
+    display: table;
+}
+.float{
+    float: left;
+}
+nav{
+    width: 70%;
+    padding: 0px;
+    margin: 0px;
+  
+}
+.but{
+    padding: 0px;
+    margin: 35px;
+    cursor: pointer;
+    display: inline-block;
+    color: black;
+    font-size: medium;
+    font-weight: 600;
+    background: none;
+    border: none;
+    
+}
+section.bg{
+    width: 100%;
+    height: 100vh;
+    animation-duration: 10s;
+    animation-name: mulbg;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+  
+}
+section.bg{
+    background-image: url(Services-product-training-banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sh{
+    width: 100%;
+    height: 80vh;
+}
+.sh h1{
+    width: 50%;
+    font-size: 40px;
+    color:  black;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+@keyframes mulbg{
+    0%{
+         background-image: url(Services-product-training-banner.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+   50%{
+    background-image: url(im1.jpg);
+    background-size: cover;
+   }
+   100%{
+    background-image: url(img3.jpg);
+    background-size: cover;
+   }
+}
+.sh button{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+}
+div.scroll{
+    width: 100%;
+    background-color: white;
+    color: blue;
+}
+div.scroll button{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+section.why{
+    width: 100%;
+    height: 130vh;
+}
+.why h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+figcaption.us{
+    width: 40%;
+    height: 120vh;
+    margin-left: 60px;
+    background-color: rgba(0, 0, 0, 0.811);
+}  
+figcaption img{
+    width: 100%;
+    height: 50vh;
+} 
+.us h2{
+   color:white;
+} 
+.us p{
+    color: WHITE;
+}
+div.photo{
+    width: 50%; 
+    height: 120vh;
+
+}
+div.photo0{
+    width: 50%; 
+    height: 60vh;  
+    padding: 50px;
+    text-align: center;
+}
+div.photo0 img{
+    width: 100%;
+    height: 20vh;
+}
+div.photo1{
+    width: 50%; 
+    height: 60vh;
+    padding: 50px;
+    text-align: center;
+}
+div.photo1 img{
+    width: 100%;
+    height: 20vh;
+}
+div.photo2{
+    width: 50%; 
+    height: 60vh; 
+    padding: 50px;
+    text-align: center; 
+}
+div.photo2 img{
+    width: 100%;
+    height: 20vh;
+}
+div.photo3{
+    width: 50%; 
+    height: 60vh;
+    padding: 50px;
+    text-align: center;
+}
+div.photo3 img{
+    width: 100%;
+    height: 20vh;
+}
+section.course{
+    width: 100%;
+    height: 120vh;
+}
+.course h1{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+}
+.course h4{
+    color: black;
+}
+div.photo5{
+    width: 30%; 
+    height: 60vh;
+    padding: 50px;
+    text-align: center;
+    margin-left: 40px;
+}
+div.photo5 img{
+    width: 100%;
+    height: 30vh;
+}  
+div.photo6{
+    width: 30%; 
+    height: 60vh;
+    padding: 50px;
+    text-align: center;
+}
+div.photo6 img{
+    width: 100%;
+    height: 30vh;
+} 
+div.photo7{
+    width: 30%; 
+    height: 60vh;
+    padding: 50px;
+    text-align: center;
+}
+div.photo7 img{
+    width: 100%;
+    height: 30vh;
+}  
+div.photo8{
+    width: 30%; 
+    height: 60vh;
+    padding: 50px;
+    text-align: center;
+    margin-left: 40px;
+}
+div.photo8 img{
+    width: 100%;
+    height: 30vh;
+}  
+div.photo9{
+    width: 30%; 
+    height: 60vh;
+    padding: 50px;
+    text-align: center;
+}
+div.photo9 img{
+    width: 100%;
+    height: 30vh;
+}  
+div.photo10{
+    width: 30%; 
+    height: 60vh;
+    padding: 50px;
+    text-align: center;
+}
+div.photo10 img{
+    width: 100%;
+    height: 30vh;
+}                                                        
+.book{
+    width: 50%;
+}
+.book h2{
+    font-size: 100px;
+}
+.about{
+    width: 100%;
+    height: 110vh;
+}
+div.img1{
+    width: 40%;
+    height: 100vh;
+    margin-left: 60px;
+}
+.img1 img{
+    width: 100%;
+}
+.abus{
+    width: 50%;
+}
+.abus h1{
+    color: blue;
+   padding-left: 30px;
+}
+.abus p{
+    padding-left: 30px;
+}
+.abus button{
+    margin-left: 30px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+.foot{
+    width: 100%;
+    height: 80vh;
+  background-color: black;
+}
+div.lo{
+    width: 25%;
+    height: 100vh;
+    padding-left: 60px;
+    color: white;
+}
+div.cd{
+    width: 25%;
+    height: 100vh;
+    padding-left: 60px;
+    color: white;
+}
+div.li{
+    width: 25%;
+    height: 100vh;
+    padding-left: 60px;
+    color: white;
+}
+div.fm{
+    width: 25%;
+    height: 100vh;
+    padding-left: 60px;
+    color: white;
+}
+section.serves{
+    width: 100%;
+    height: 100vh;
+}
+.bgs{
+    background-image: url(d1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 100%;
+}
+ .dark{
+    background-color: rgba(255, 255, 255, 0.493);
+    color: black;
+    padding: 50px;
+    height: 100%;
+    text-align: center;
+}
+.dark h1{
+    font-size: 40px;
+}
+.dark p{
+    font-size: 20px;
+}
+.dark button{
+    height: 30px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+section.none{
+    width: 25%;
+   display: none;
+}
+section.wow h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+section.video{
+    
+    height: 60vh;
+    margin-left: 60px;
+
+}
+
+
+
+
